@@ -1,0 +1,23 @@
+journey_group,bucket,issue_summary,notes
+Getting started,Technical,Session gets stuck on waiting for agent or fails to connect,Users report connection issues on mobile and laptop before the interview begins
+Getting started,Technical,Session exits or ends unexpectedly,A few users said the interview ended before they could really begin or complete a response
+Getting started,Technical,Mic or device handling is fragile,Interruptions happen around mic setup or headphone switching
+Getting started,UI/UX,Laptop layout could be improved,Some users want a larger less card-constrained layout
+Getting started,UI/UX,Tap-to-speak behavior is not intuitive,The interaction is unclear and may move the flow forward unexpectedly
+Getting started,UI/UX,Controls near the mic are confusing,One example is confusion about the keyboard icon next to the microphone
+While answering and interacting,Technical,Speech-to-text misrecognizes student speech,Students report spoken answers being transcribed incorrectly even when they speak clearly
+While answering and interacting,Technical,Language detection is weak for mixed English Tamil speech,English is sometimes rendered incorrectly or shown in Tamil
+While answering and interacting,Technical,Answers are not captured or submitted reliably,System sometimes behaves as if the student did not answer
+While answering and interacting,Technical,Flow skips to the next question before current answer is accepted,Students report sudden progression without recording the current answer
+While answering and interacting,Technical,Voice recording is unreliable,Recording appears enabled but speech is not consistently captured
+While answering and interacting,Technical,Audio clarity is poor,Students mention unclear loud or hard to hear assistant audio
+While answering and interacting,Technical,Response latency is noticeable,Users mention slow response time loading delay or taking time states
+While answering and interacting,UI/UX,Students want live subtitles or visible text while speaking,Users want captured text to be visible before or while sending
+While answering and interacting,UI/UX,User message bubble or typed text is not always visible,Students say what they type or speak does not show consistently
+While answering and interacting,UI/UX,Students want stop pause or delete controls for voice input,Users want to correct mistakes before submission
+While answering and interacting,Conversational,Sana sometimes responds to a different meaning than the student intended,Users say they speak one thing and get a different response
+While answering and interacting,Conversational,Sana sometimes feels repetitive or scripted,Conversation can feel like a fixed set of questions
+While answering and interacting,Conversational,Sana sometimes continues on the same topic without understanding the user,Agent keeps talking in one direction despite user input change
+While answering and interacting,Conversational,Some students found Sana friendly and easy to talk to,Positive feedback says the interaction feels approachable and clear
+Closing and recovery,Technical,Users cannot easily recover after a failed or interrupted session,Some users could not reattempt after an unexpected exit or failed run
+Closing and recovery,UI/UX,Exit or end-call action is hard to find,Ending the conversation is not obvious in the interface

@@ -15,5 +15,18 @@ wheels/
 # Caches
 .ruff_cache/
 
-# Large local data
-data/
+# Large data files
+data/agents/
+data/exports/
+data/whatsapp/
+
+# Media files
+*.opus
+*.mp3
+*.wav
+*.jpg
+*.jpeg
+*.png
+*.zip
+
+

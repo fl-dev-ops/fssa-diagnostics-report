@@ -1,0 +1,11 @@
+metric,value
+sessions_initiated,96.0
+completed_with_report,59.0
+completed_no_report,8.0
+dropped_midway,29.0
+sessions_with_all_profile_fields_present,96.0
+average_call_duration_seconds_completed_with_report,684.14
+overall_relevance_pct,22.89
+overall_partial_relevance_pct,71.51
+overall_not_relevant_pct,5.61
+sessions_mostly_not_relevant,5.0
