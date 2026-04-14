@@ -1,0 +1,15 @@
+[project]
+name = "diagnostic-report"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.39.0",
+    "streamlit>=1.53.1",
+    "streamlit-echarts>=0.4.0",
+    "pandas>=2.0.0",
+    "openai-whisper",
+    "psycopg2-binary>=2.9.0",
+    "python-dotenv>=1.0.0",
+]
