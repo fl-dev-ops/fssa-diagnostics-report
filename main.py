@@ -178,6 +178,10 @@ def load_data() -> pd.DataFrame:
     student_df.loc[student_df["Student"].eq("—"), "Student"] = best_df["name"].apply(
         normalize_text
     )
+    excluded_names = {"harini", "dj", "dharshini", "shyam", "surya", "hasan", "cathy"}
+    student_df = student_df[
+        ~student_df["Student"].str.lower().str.strip().isin(excluded_names)
+    ].reset_index(drop=True)
     student_df["Salary Bucket"] = student_df["Salary"].apply(normalize_salary_bucket)
     student_df["unclear_count"] = sum(
         student_df[label].eq("Unclear") for label in DIMENSION_FIELDS
